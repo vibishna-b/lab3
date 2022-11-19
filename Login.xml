@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Login.xsl" type="text/xsl"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="articless.xsd">
+    <head>Personalised Gift Store</head>
+    <username>Vibishna</username>
+    <password>12345678</password>
+
+</article>
+

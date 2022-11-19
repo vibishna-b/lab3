@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="order.xsl" type="text/xsl"?>
+<!DOCTYPE article SYSTEM "Login.dtd">
+<article>
+    <head>Order Details</head>
+
+    <order>
+        <code>101</code>
+        <name>Redvelvet</name>
+        <quantity>1</quantity>
+        <price>Rs.390</price>
+        <status>shipping</status>
+    </order>
+
+    <order>
+        <code>102</code>
+        <name>White forest</name>
+        <quantity>1</quantity>
+        <price>Rs.700</price>
+        <status>delivered</status>
+    </order>
+    <order>
+        <code>103</code>
+        <name>Black forest</name>
+        <quantity>1</quantity>
+        <price>RS.700</price>
+        <status>delivered</status>
+    </order>
+    <order>
+        <code>104</code>
+        <name>rainbow</name>
+        <quantity>1</quantity>
+        <price>Rs.1000</price>
+        <status>shipping</status>
+    </order>
+    <order>
+        <code>105</code>
+        <name>black current</name>
+        <quantity>1</quantity>
+        <price>Rs.1200</price>
+         <status>cancelled</status>
+    </order>
+
+    
+    <writer>&writer;</writer>
+    <copyright>&copyright;</copyright>
+</article>
+

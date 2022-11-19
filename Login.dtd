@@ -1,0 +1,4 @@
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT copyright (#PCDATA)>
+<!ENTITY writer "By Vibishna">
+<!ENTITY copyright "@ Christ Univeristy">

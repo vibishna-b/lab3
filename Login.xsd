@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="username">
+        <xs:restriction base="xs:string">
+            <xs:length value="8"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="password">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="00000000"/>
+            <xs:maxInclusive value="99999999"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="username" type="username"/>
+                <xs:element name="password" type="password"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
